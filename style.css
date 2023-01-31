@@ -1,0 +1,368 @@
+* {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background: rgba(170, 146, 198, 0.432);
+  background: radial-gradient(circle, rgba(170, 146, 198, 0.432) 0%, rgba(109, 83, 134, 0.377) 71%, rgba(56, 35, 69, 0.329) 100%);
+
+  max-width: 95%;
+  margin-inline: auto;
+  box-shadow: rgba(0, 0, 0, 0.089) 0px 1px 4px;
+}
+
+.img-fluid-banner {
+  max-width: 100%;
+  height: 50vh;
+  width: 78rem;
+  box-shadow: rgba(0, 0, 0, 0.123) 0px 5px 15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.desligado {
+  padding: 4rem;
+}
+
+.tittle {
+  padding: 0.5rem;
+  text-align: center;
+  margin-inline: auto;
+  font-family: "Secular One", sans-serif;
+  color: rgba(17, 17, 102, 0.596);
+  border: 1px solid rgba(17, 17, 102, 0.068);
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 4px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.tittle:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black;
+  background: rgba(200, 7, 7, 0.575);
+  background: linear-gradient(
+    90deg,
+    rgba(200, 7, 7, 0.5) 10%,
+    rgba(201, 178, 28, 0.568) 50%,
+    rgba(26, 145, 18, 0.493) 92%
+  );
+}
+
+#resultado {
+  box-shadow: rgba(99, 99, 99, 0.123) 0px 2px 8px 0px;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(161, 3, 3);
+  border-radius: 8px;
+  margin-bottom: 0.1rem;
+}
+
+#resultado2 {
+  box-shadow: rgba(99, 99, 99, 0.123) 0px 2px 8px 0px;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.menu {
+  box-shadow: rgba(99, 99, 99, 0.123) 0px 2px 8px 0px;
+  padding: 0.8rem;
+  border-radius: 8px;
+}
+/*/main/*/
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  background: rgba(137, 222, 255, 0.212);
+  background: linear-gradient(
+    180deg,
+    rgba(157, 227, 255, 0.068) 10%,
+    rgba(50, 100, 228, 0.185) 50%,
+    rgba(48, 140, 177, 0.158) 92%
+  );
+  padding: 1rem;
+
+ 
+}
+
+/*/div dentro do main (linha interna)/*/
+.container2 {
+  width: 100%;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  border: 1px solid rgba(157, 194, 250, 0.185);
+ 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+ border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*/ Daqui em diante o menu lateral/*/
+.container2 ul,
+a {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Secular One", sans-serif;
+  color: rgba(17, 17, 102, 0.596);
+  margin-inline: auto;
+  text-align: justify;
+}
+
+#sobre {
+  border: none;
+  color: rgba(17, 17, 102, 0.596);
+  align-items: center;
+  background-color: rgba(141, 166, 189, 0.048);
+}
+
+#sobre:hover {
+  margin: 0.2rem;
+  padding: 0.3rem;
+  width: 7rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black;
+  box-shadow: rgba(99, 99, 99, 0.466) 0px 2px 8px 0px;
+  border-radius: 4px;
+  text-align: justify;
+  background-color: rgba(233, 229, 19, 0.596);
+}
+
+#sobre:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+
+#breve {
+  border: none;
+  color: rgba(17, 17, 102, 0.596);
+  align-items: left;
+  background-color: rgba(141, 166, 189, 0.048);
+}
+
+#breve:hover {
+  margin: 0.2rem;
+  padding: 0.3rem;
+  width: 7rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black;
+  box-shadow: rgba(99, 99, 99, 0.466) 0px 2px 8px 0px;
+  border-radius: 4px;
+  text-align: justify;
+  background-color: rgba(13, 128, 9, 0.596);
+}
+
+#breve:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+
+#git {
+  border: none;
+  color: rgba(17, 17, 102, 0.596);
+  align-items: left;
+  background-color: rgba(141, 166, 189, 0.048);
+}
+
+#git:hover {
+  margin: 0.2rem;
+  padding: 0.3rem;
+  width: 7rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black;
+  box-shadow: rgba(99, 99, 99, 0.466) 0px 2px 8px 0px;
+  border-radius: 4px;
+  text-align: justify;
+  background-color: rgba(248, 0, 0, 0.37);
+}
+
+#git:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black;
+}
+
+.logo {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  border-radius: 4rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.171) 0px 3px 8px;
+}
+
+/*/Daqui em diante são as propriedades do semáforo/*/
+
+#red,
+#green,
+#yellow,
+#stop,
+#automatic {
+  border: none;
+  border-radius: 4px;
+  padding: 1.5rem;
+  margin-top: 0.2rem;
+  justify-content: center;
+  background-color: rgba(226, 226, 226, 0.445);
+  padding: 0.3rem;
+  gap: 2px;
+  width: 8rem;
+
+  font-family: "Secular One", sans-serif;
+  color: rgba(17, 17, 102, 0.596);
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-inline: auto;
+  border-radius: 4px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background: rgba(200, 7, 7, 0.575);
+  background: linear-gradient(
+    90deg,
+    rgba(200, 7, 7, 0.5) 10%,
+    rgba(201, 178, 28, 0.568) 50%,
+    rgba(26, 145, 18, 0.493) 92%
+  );
+
+  gap: 5px;
+  font-family: "Secular One", sans-serif;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: -1.5rem;
+}
+
+#red:hover {
+  background-color: rgba(248, 0, 0, 0.596);
+  padding: 0.3rem;
+  gap: 2px;
+  width: 8rem;
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-inline: auto;
+  border-radius: 4px;
+  text-shadow: 1px 1px 2px black;
+}
+#red:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+
+#yellow:hover {
+  background-color: rgba(233, 229, 19, 0.596);
+  padding: 0.3rem;
+  gap: 2px;
+  width: 8rem;
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-inline: auto;
+  border-radius: 4px;
+  text-shadow: 1px 1px 2px black;
+}
+#yellow:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+#green:hover {
+  background-color: rgba(13, 128, 9, 0.596);
+  padding: 0.3rem;
+  gap: 2px;
+  width: 8rem;
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-inline: auto;
+  border-radius: 4px;
+  text-shadow: 1px 1px 2px black;
+}
+#green:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+
+#automatic:hover {
+  background-color: rgba(146, 146, 146, 0.815);
+  padding: 0.3rem;
+  gap: 2px;
+  width: 8rem;
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-inline: auto;
+  border-radius: 4px;
+  text-shadow: 1px 1px 2px black;
+}
+#automatic:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+
+#stop:hover {
+  background-color: rgba(3, 3, 3, 0.596);
+  padding: 0.3rem;
+  gap: 2px;
+  width: 8rem;
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-inline: auto;
+  border-radius: 4px;
+  text-shadow: 1px 1px 2px black;
+}
+#stop:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+
+footer {
+  text-align: center;
+  max-width: 100%;
+  width: 100%;
+  background: rgba(170, 146, 198, 0.281);
+  background: linear-gradient(180deg, rgba(170, 146, 198, 0.24) 0%, rgba(109, 83, 134, 0.212) 71%, rgba(44, 27, 54, 0.582) 100%);
+
+}
